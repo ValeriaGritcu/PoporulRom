@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap');
+body {
+    background-color: rgb(255, 162, 162);
+}
+
+.statis1 {
+    width: auto;
+    margin-left: 23%;
+    float: left;
+    background-color: #eb6d7c;
+
+}
+ table {
+    margin: auto;
+    border: 2px solid rgb(45, 0, 0);
+    text-align: left;
+    border-collapse: collapse;
+    background-color: #ffd2d2;
+}
+td, th {
+    /* padding-right: 70px; */
+    padding: 10px 100px 10px 10px;
+    border: 2px solid black;
+}
+
+p {
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+}
+
+.statis2 {
+    float: left;
+    width: auto;
+    margin-left: 6%;
+    background-color: #eb6d7c;
+}
+
+.tradi {
+    clear: left;
+}
+
+h4 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: "Eagle Lake", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: "Eagle Lake", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h5 {
+    font-size: 30px;
+}
+
+
+.hash1 {
+margin-top: 50px;
+padding: 50px;
+font-size: 70px;
+text-align: center;
+font-family: "Eagle Lake", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+    text-align: center;
+}
+
+.tradi {
+    margin-left: 12%;
+    padding-top: 2%;
+
+}
+.metode {
+    margin-left: 12%;
+    padding-top: 2%;
+}
+
+
+.form-container {
+    background-color: rgb(255, 226, 232);
+    padding: 5px 30px 30px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    margin: auto;
+    border: 3px #7d0e37 solid;
+    margin-bottom: 3%;
+  }
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #a03453;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  button:hover {
+    background-color: #68082c;
+  }
+
+  .pages {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+  
+  .buton-rosu {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #a03453;
+    color: white;
+    text-decoration: none; 
+    border-radius: 10px; 
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    font-family: Arial, sans-serif;
+  }
+  
+  .buton-rosu:hover {
+    background-color: #68082c; 
+  }
+
+  @media screen and (max-width: 700px) {
+    body {
+      padding: 10px;
+    }
+  
+    .hash1 {
+      font-size: 40px;
+      padding: 30px 10px;
+    }
+  
+    p {
+      margin-left: 10px;
+      margin-right: 10px;
+      text-align: justify;
+    }
+  
+    .statis1, .statis2 {
+      float: none;
+      width: 100%;
+      margin: 10px auto;
+      padding-top:1px ;
+    }
+  
+    table {
+      width: 100%;
+      font-size: 14px;
+    }
+  
+    td, th {
+      padding: 10px;
+    }
+  
+    .tradi, .metode {
+      margin-left: 0;
+      padding: 10px;
+    }
+  
+    .form-container {
+      width: 100%;
+      box-sizing: border-box;
+    }
+  
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+    }
+  
+    .buton-rosu {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+  }
